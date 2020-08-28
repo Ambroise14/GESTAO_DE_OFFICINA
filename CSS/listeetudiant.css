@@ -1,0 +1,43 @@
+
+            th{
+                border: solid 1px black;
+                width: 1200px;
+                
+            }
+               td{
+                border: solid 1px black;
+                
+            }
+               .ig{
+                width: 250px;
+                height: 215px;
+                margin-left: 1080px;
+                margin-top: -160px;
+                border:solid 2px black;
+            }
+            td{
+                color: black;
+                font-size: 20px;
+                font-style: italic;
+            }
+            th{
+                background:white;
+                color: red;
+                font-size: 18px;
+            }
+            #rech{
+                padding: 3px;
+                border: solid 3px maroon;
+                border-radius: 40px;
+                outline: none;
+                padding-left: 20px;
+                background: url('../IMAGES/ariane5.png') right no-repeat;
+                width: 30px;
+                transition: 6s;
+            
+            }
+            #rech:focus{
+                width: 800px;
+            }
+            
+        
