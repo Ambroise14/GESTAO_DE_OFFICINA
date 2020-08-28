@@ -1,0 +1,126 @@
+
+    body{
+      background:white;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    ul{margin: 0px;
+    padding: 0px;
+    list-style: none;
+    }
+    ul li{float: left;
+    width: 220px;
+    height: 35px;
+    background-color: black;
+    opacity: .8;line-height: 25px;
+    text-align: center;font-size: 12px;
+    margin-right: 0px; 
+    }
+    ul li a{text-decoration: none;
+    color: white;
+    display: block; 
+  
+    }
+    ul li a:hover{background-color: green;
+    }
+    ul li ul li{display: none;}
+    ul li:hover ul li{display: block;}
+  header{
+    position: relative;
+    border: solid 3px black;
+    height: 200px;
+    background-color: blue;
+   
+  }
+  h2{
+    text-align: center;
+    background-color: red;
+    color: white;
+  }
+ fieldset{
+   border: solid 5px black;
+   background-color: white;
+ }
+ 
+.f{
+  background-color:blue;
+}
+.longs{
+  width: 550px;
+  height: 150px;
+}
+.checkbox{
+  width: 20px;
+  font: outline;
+
+}
+.dadag{
+  display: block;
+}
+.nom{
+  width: 200px;
+  padding: 15px;
+  font-size: 25px;
+  text-align: center;
+}
+.titre{
+  width: 440px;
+  padding: 15px;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+#cadset{
+  border: solid 1px red;
+  margin-top: -2px;
+}
+#hortense{
+  background-image: url('../IMAGES/ariane.jpeg');
+ color: black;
+}
+label{
+  display: block;
+  padding: 20px;
+}
+textarea{
+  width: 370px;
+  height: 150px;
+}
+.long{
+  width: 350px;
+  padding: 12px;
+  font-size: 25px;
+}
+#espagnecadre{
+  border: solid 2px red;
+  height: 500px;
+  width: 600px;
+  margin-top: 150px;
+  color: black;
+  margin: 20px;
+ 
+}
+.ig{
+           /*pgz8389   */ 
+  width: 600px;
+  height: 500px;
+  margin-left: 730px;
+  margin-top: -525px;
+  border: solid 1px black;
+  position: absolute;
+}
+H1{
+  background: blue;
+  text-align: center;
+  color: white;
+}
+ .lien{
+   background: red;
+   color: white;
+   width: 30px;
+ } 
+ body{
+   background: white;
+ }
+

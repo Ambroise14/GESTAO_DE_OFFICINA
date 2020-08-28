@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    label{
+      display:block;
+    }
+    #ca{
+      border: solid 2px black;
+      background: blue;
+      color: white;
+    }
+    .longs{
+      width: 500px;
+      height: 200px;
+      border: solid 1px black;
+    }
+    .long{
+      width: 250px;
+      border: solid 1px black;
+      padding: 12px;
+    }
+    fieldset{
+      border: solid 1px blue;
+      background: pink;
+      background-image: url("../IMAGES/ariane.jpeg");
+      color: brown;
+      opacity: .8;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  </style>
+</head>
+<body>
+  <fieldset>
+    <h1>resultat</h1>
+    <form action="" method="POST" name="f"  enctype="multipart/form-data">
+      <div id="ca">
+        <label><input type="checkbox" id="espagne" value="espagne" name="rt1">ESPAGNE</label>
+        <label><input type="checkbox" value="angletere"  name="rt2">angletere</label>
+        <label><input type="checkbox" value="italie" id="italie"  name="rt3" >Italie</label>                  
+        <label><input type="checkbox" value="allemagne" id="allemagne"  name="rt4" >Allemagne</label>
+        <label><input type="checkbox" value="france" id="france"  name="rt5" >France</label>
+      </div>
+       <label>Date</label>
+       <input type="datetime-local" name="dates" id="dates" class="long">
+       <label>photo</label>
+       <input type="file" name="photo" id="photo" class="long">
+       <label>Description</label>
+       <textarea name="des" id="des" class="longs"></textarea> 
+      <input type="button" onclick="ambroise();" value="afficher">
+    <input type="text" name="y">
+      <input type="text" name="moi" id="moi">
+    </form>
+  </fieldset>
+  <script>
+    var d= new Date();
+    var m=d.getmonth();
+    var w=m ;
+    alert(w);
+ function ambroise(){
+  if((!f.rt1.checked) &&(!f.rt2.checked)&&(!f.rt3.checked)&&(!f.rt4.checked)&&(!f.rt5.checked)){
+    alert('veillez remplir tout les champs');
+  }
+ }
+  </script>
+</body>
+</html>
